@@ -1,0 +1,9 @@
+package com.myspace.testproject;
+
+import java.lang.Number;
+
+rule "fefe"
+	dialect "mvel"
+	when
+	then
+end
