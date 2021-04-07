@@ -10,6 +10,8 @@ public class brms implements java.io.Serializable {
 
 	private java.lang.String name;
 
+	private java.lang.String knjk;
+
 	public brms() {
 	}
 
@@ -21,8 +23,17 @@ public class brms implements java.io.Serializable {
 		this.name = name;
 	}
 
-	public brms(java.lang.String name) {
+	public java.lang.String getKnjk() {
+		return this.knjk;
+	}
+
+	public void setKnjk(java.lang.String knjk) {
+		this.knjk = knjk;
+	}
+
+	public brms(java.lang.String name, java.lang.String knjk) {
 		this.name = name;
+		this.knjk = knjk;
 	}
 
 }
