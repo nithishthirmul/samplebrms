@@ -14,6 +14,8 @@ public class brms implements java.io.Serializable {
 
 	private java.lang.Integer jn;
 
+	private java.lang.Integer vrvg;
+
 	public brms() {
 	}
 
@@ -41,11 +43,20 @@ public class brms implements java.io.Serializable {
 		this.jn = jn;
 	}
 
+	public java.lang.Integer getVrvg() {
+		return this.vrvg;
+	}
+
+	public void setVrvg(java.lang.Integer vrvg) {
+		this.vrvg = vrvg;
+	}
+
 	public brms(java.lang.String name, java.lang.String knjk,
-			java.lang.Integer jn) {
+			java.lang.Integer jn, java.lang.Integer vrvg) {
 		this.name = name;
 		this.knjk = knjk;
 		this.jn = jn;
+		this.vrvg = vrvg;
 	}
 
 }
