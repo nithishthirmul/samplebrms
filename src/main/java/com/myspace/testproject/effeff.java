@@ -12,6 +12,8 @@ public class effeff implements java.io.Serializable {
 
 	private java.math.BigInteger fe;
 
+	private java.math.BigInteger xsx;
+
 	public effeff() {
 	}
 
@@ -31,9 +33,19 @@ public class effeff implements java.io.Serializable {
 		this.fe = fe;
 	}
 
-	public effeff(java.lang.Boolean vdv, java.math.BigInteger fe) {
+	public java.math.BigInteger getXsx() {
+		return this.xsx;
+	}
+
+	public void setXsx(java.math.BigInteger xsx) {
+		this.xsx = xsx;
+	}
+
+	public effeff(java.lang.Boolean vdv, java.math.BigInteger fe,
+			java.math.BigInteger xsx) {
 		this.vdv = vdv;
 		this.fe = fe;
+		this.xsx = xsx;
 	}
 
 }
