@@ -6,12 +6,23 @@ package com.myspace.testproject;
 
 public class vdvd implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public vdvd() {
-    }
+	private java.lang.Float csdfc;
 
+	public vdvd() {
+	}
 
+	public java.lang.Float getCsdfc() {
+		return this.csdfc;
+	}
 
+	public void setCsdfc(java.lang.Float csdfc) {
+		this.csdfc = csdfc;
+	}
+
+	public vdvd(java.lang.Float csdfc) {
+		this.csdfc = csdfc;
+	}
 
 }
