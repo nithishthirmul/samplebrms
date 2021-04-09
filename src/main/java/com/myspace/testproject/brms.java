@@ -18,6 +18,8 @@ public class brms implements java.io.Serializable {
 
 	private java.util.Date ff;
 
+	private java.lang.Character jj;
+
 	public brms() {
 	}
 
@@ -61,13 +63,23 @@ public class brms implements java.io.Serializable {
 		this.ff = ff;
 	}
 
+	public java.lang.Character getJj() {
+		return this.jj;
+	}
+
+	public void setJj(java.lang.Character jj) {
+		this.jj = jj;
+	}
+
 	public brms(java.lang.String name, java.lang.String knjk,
-			java.lang.Integer jn, java.lang.Integer vrvg, java.util.Date ff) {
+			java.lang.Integer jn, java.lang.Integer vrvg, java.util.Date ff,
+			java.lang.Character jj) {
 		this.name = name;
 		this.knjk = knjk;
 		this.jn = jn;
 		this.vrvg = vrvg;
 		this.ff = ff;
+		this.jj = jj;
 	}
 
 }
