@@ -6,12 +6,23 @@ package com.myspace.testproject;
 
 public class effeff implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public effeff() {
-    }
+	private java.lang.Boolean vdv;
 
+	public effeff() {
+	}
 
+	public java.lang.Boolean getVdv() {
+		return this.vdv;
+	}
 
+	public void setVdv(java.lang.Boolean vdv) {
+		this.vdv = vdv;
+	}
+
+	public effeff(java.lang.Boolean vdv) {
+		this.vdv = vdv;
+	}
 
 }
