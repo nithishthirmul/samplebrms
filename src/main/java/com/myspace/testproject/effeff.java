@@ -16,6 +16,8 @@ public class effeff implements java.io.Serializable {
 
 	private java.lang.Byte jb;
 
+	private java.util.Date kn;
+
 	public effeff() {
 	}
 
@@ -51,12 +53,21 @@ public class effeff implements java.io.Serializable {
 		this.jb = jb;
 	}
 
+	public java.util.Date getKn() {
+		return this.kn;
+	}
+
+	public void setKn(java.util.Date kn) {
+		this.kn = kn;
+	}
+
 	public effeff(java.lang.Boolean vdv, java.math.BigInteger fe,
-			java.math.BigInteger xsx, java.lang.Byte jb) {
+			java.math.BigInteger xsx, java.lang.Byte jb, java.util.Date kn) {
 		this.vdv = vdv;
 		this.fe = fe;
 		this.xsx = xsx;
 		this.jb = jb;
+		this.kn = kn;
 	}
 
 }
