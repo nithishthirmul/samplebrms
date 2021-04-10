@@ -20,6 +20,8 @@ public class effeff implements java.io.Serializable {
 
 	private java.math.BigDecimal xssad;
 
+	private java.lang.Integer cdvd;
+
 	public effeff() {
 	}
 
@@ -71,15 +73,24 @@ public class effeff implements java.io.Serializable {
 		this.xssad = xssad;
 	}
 
+	public java.lang.Integer getCdvd() {
+		return this.cdvd;
+	}
+
+	public void setCdvd(java.lang.Integer cdvd) {
+		this.cdvd = cdvd;
+	}
+
 	public effeff(java.lang.Boolean vdv, java.math.BigInteger fe,
 			java.math.BigInteger xsx, java.lang.Byte jb, java.util.Date kn,
-			java.math.BigDecimal xssad) {
+			java.math.BigDecimal xssad, java.lang.Integer cdvd) {
 		this.vdv = vdv;
 		this.fe = fe;
 		this.xsx = xsx;
 		this.jb = jb;
 		this.kn = kn;
 		this.xssad = xssad;
+		this.cdvd = cdvd;
 	}
 
 }
